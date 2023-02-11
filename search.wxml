@@ -1,0 +1,22 @@
+<!--pages/search/search.wxml-->
+<view>
+    <view>
+        <view class="weui-search-bar">
+            <view class="weui-search-bar__form">
+                <view class="weui-search-bar__box">
+                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                    <input bindinput="searchQuery" type="text" class="weui-search-bar__input" placeholder="请输入你想烹饪的菜名/菜系"/>
+                </view>
+            </view>
+            <view bindtap='searchClick' class="weui-search-bar__submit-btn">搜索</view>
+        </view>
+        <view class="p" bindtouchstart="scrollTouchStart" bindtouchmove='scrollTouchMove' bindtouchend="scrollTouchEnd">
+            <view bindtap="menuClick" data-bean='{{item}}' style="margin-top:10px; padding:10px; background:#eeeeee;"wx:for="{{menus}}" wx:key="key">
+                <view><text style="font-size: 18px;"> 菜名：{{item.menuname}}</text> </view>
+                <view><text style="font-size: 14px;"> 主料：{{item.foodused}}</text> </view>
+                <view><text style="font-size: 14px;"> 菜系：{{item.region}}</text> </view>
+            </view>
+            
+        </view>
+    </view>
+</view>
