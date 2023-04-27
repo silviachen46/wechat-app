@@ -1,7 +1,7 @@
 # wechat-app
 mini-app based on flask framework and sqlalchemy
 
-# for downloading: miniprogram.rar(front-end), houduan.py(back-end based on sqlalchemy), and mainDB(creating database for menus)
+# for downloading: miniprogram.rar(front-end), houduan.py(back-end based on sqlalchemy), and mainDB.py(creating database for menus)
 
 
 all the front-end codes are in miniprogram.rar and other front-end files are displayed as samples.
