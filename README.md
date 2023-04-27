@@ -2,6 +2,11 @@
 mini-app based on flask framework and sqlalchemy
 
 
+#for downloading: miniprogram.rar(front-end), houduan.py(back-end based on sqlalchemy), and mainDB(creating database for menus)
+
+
+all the front-end codes are in miniprogram.rar, other front-end files are displayed as samples.
+
 recommending menu based on correlation factor of tags including type,flavor,ingredients,etc.
 
 click here to see demo:https://drive.google.com/file/d/1hqDysSH-8pynLYx4K0I4lLaHQmEw-JvF/view?usp=share_link
