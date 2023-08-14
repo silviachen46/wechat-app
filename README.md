@@ -1,12 +1,12 @@
 # wechat-app
 mini-app based on flask framework and sqlalchemy
 
-# for downloading: miniprogram.rar(front-end), houduan.py(back-end based on sqlalchemy), and mainDB.py(creating database for menus)
+# all files should be in the same directory!
 
 
 all the front-end codes are in miniprogram.rar and other front-end files are displayed as samples.
 
-recommending menu based on correlation factor of tags including type,flavor,ingredients,etc.
+recommending menu based on correlation factor and freqency (TF-IDF) of tags including type,flavor,ingredients,etc.
 
 click here to see demo:https://drive.google.com/file/d/1hqDysSH-8pynLYx4K0I4lLaHQmEw-JvF/view?usp=share_link
 
