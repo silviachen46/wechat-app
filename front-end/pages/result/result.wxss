@@ -1,0 +1,19 @@
+/* pages/result/result.wxss */
+
+.btn-view {
+    width: 100%;
+    padding: 20rpx 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  
+.btn {
+    width: 90%;
+    color: #09BB07;
+  }
+
+.coverView {
+    width: 100%;
+    bottom: 40px;
+}

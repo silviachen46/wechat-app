@@ -1,0 +1,8 @@
+<!--pages/result/result.wxml-->
+<view class="coverView">
+    <web-view src="{{link}}"></web-view>
+</view>
+
+<!-- <view class='btn-view'>
+    <button class='btn'>我要烹饪这道菜</button>
+</view> -->
